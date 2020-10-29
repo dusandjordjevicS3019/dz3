@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+li , a , p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: black;
+}
+img {
+    width: 150px;
+    cursor: pointer;
+    height: auto;
+    
+   
+}
+.links {
+    list-style: none;
+}
+.links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.links li a {
+    transition: all 0.2s ease 0s;
+
+}
+.links li a:hover {
+    color: blue;
+}
+.p:hover {
+    color: blue;
+}
+form {
+    text-align: center;
+    padding: 10px;
+}
+.forma {
+    margin-top: 10px;
+    
+}
+.proizvodi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    
+}
+.proizvod1 {
+    color: white;
+    border: 2px solid white;
+    margin: 5px;
+}
+.proizvod2 {
+    color: white;
+    border: 2px solid white;
+    margin: 5px;
+}
+
+.proizvod3 {
+    color: white;
+    border: 2px solid white;
+    margin: 5px;
+}
+button {
+    text-decoration: none;
+    outline: none;
+    color: black;
+    
+}
+.ostalo {
+    background-color: white;
+    color: black;
+    padding: 50px;
+    margin: 5px;
+}
+.vesti {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkred;
+    color: black;
+    text-align: center;
+  }
